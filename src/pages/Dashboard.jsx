@@ -5,7 +5,7 @@ import { auth } from "../firebase/firebase";
 import { db } from "../firebase/firebase";
 import { useNavigate } from "react-router-dom";
 import CreateContact from "./CreateContact";
-import "./Dashboard.css";
+import "./dashboard.css";
 import { FaEdit, FaTrash } from "react-icons/fa";
 import { deleteDoc, doc, updateDoc } from "firebase/firestore";
 
