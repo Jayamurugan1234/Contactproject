@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 import { db } from "../firebase/firebase";
-import "./CreateContact.css";
+import "./createContact.css";
 
 function CreateContact({ onClose }) {
   const [name, setName] = useState("");
